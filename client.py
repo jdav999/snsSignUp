@@ -16,8 +16,8 @@ mess_text = sys.argv[1]
 response = topic.publish(
  
     topic_arn,
-    Message=mess_text,
- 	 
+    Message=mess_text
+)
  
  
 
